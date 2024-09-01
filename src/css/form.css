@@ -1,0 +1,42 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.feedback-form input[type='email'],
+.feedback-form textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.feedback-form input[type='email']:hover,
+.feedback-form textarea:hover {
+  border-color: black;
+}
+
+.feedback-form input[type='email']:focus,
+.feedback-form textarea:focus {
+  border-color: blue;
+  outline: none;
+}
+
+.feedback-form button {
+  padding: 10px;
+  background-color: #5a9bfc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.feedback-form button:hover {
+  background-color: #4686e5;
+}
